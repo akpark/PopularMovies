@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_sort_label">Sort By</string>
+
+    <string name="popularity_label">Popularity</string>
+    <string name="highest_rated_label">Highest Rated</string>
+    <string name="favorites_label">Favorites</string>
+    <string name="pref_sort_key">sort_by</string>
+
+    <string name="popularity_value" translatable="false">popularity.desc</string>
+    <string name="highest_rated_value">vote_count.desc</string>
+    <string name="favorites_value">favorites</string>
+    <string name="api_key">a55566dfc0d104d7f3222dab02a7a872</string>
+
+    <string name="image_size_default" translatable="false">w185</string>
+    <string name="title_activity_movie_detail">MovieDetail</string>
+
+    <string name="pref_sort_label_popularity">Popularity</string>
+
+    <string name="sync_account_type">popularmovies.example.com</string>
+    <string name="content_authority">com.example.andrewpark.popularmovies</string>
+</resources>

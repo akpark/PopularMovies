@@ -1,0 +1,8 @@
+<fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_movieList_container"
+    android:name="com.example.andrewpark.popularmovies.MovieListActivityFragment"
+    tools:layout="@layout/fragment_movie_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
