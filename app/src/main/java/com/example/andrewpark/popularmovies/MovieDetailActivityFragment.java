@@ -2,7 +2,6 @@ package com.example.andrewpark.popularmovies;
 
 import android.content.ContentValues;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -46,7 +45,6 @@ public class MovieDetailActivityFragment extends Fragment {
     private Movie movie;
     private ArrayList<Trailer> trailerList = new ArrayList<Trailer>();
     private ArrayList<Review> reviewList = new ArrayList<Review>();
-    SharedPreferences sharedPreferences;
 
     public MovieDetailActivityFragment() {
     }
@@ -72,6 +70,7 @@ public class MovieDetailActivityFragment extends Fragment {
             int movie_position = intent.getIntExtra(Intent.EXTRA_TEXT, 0);
             movie = MovieListActivityFragment.movies.get(movie_position);
         }
+
         movie_title.setText(movie.original_title);
         mPicasso.with(getActivity()).load("http://image.tmdb.org/t/p/w185/" + movie.poster_path).into(movie_icon);
 

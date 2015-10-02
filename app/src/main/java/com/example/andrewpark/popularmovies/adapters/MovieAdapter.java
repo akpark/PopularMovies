@@ -43,7 +43,6 @@ public class MovieAdapter extends ArrayAdapter<Movie> {
 
         Movie movie = getItem(position);
 
-
         if (movie != null) {
             ImageView movie_image = (ImageView)v.findViewById(R.id.grid_movie_image);
 
